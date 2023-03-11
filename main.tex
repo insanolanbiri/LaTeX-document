@@ -1,0 +1,51 @@
+\documentclass{standardtext}
+
+% \SingleSpacing\SingleSpacing*
+\OnehalfSpacing\OnehalfSpacing*
+% \DoubleSpacing\DoubleSpacing*
+
+\usepackage[left=2.75cm, 
+            right=2.75cm, 
+            top=2cm, 
+            bottom=2cm, 
+            asymmetric,
+]{geometry}
+
+\makeoddfoot{plain}
+    {\footnotesize \leftmark}
+    {}
+    {\footnotesize \thepage{}/\thelastpage{}}
+\makeevenfoot{plain}
+    {\footnotesize \thepage{}/\thelastpage{}}
+    {}
+    {\footnotesize \rightmark}
+\makeoddhead{plain}
+    {}
+    {}
+    {}
+\makeevenhead{plain}
+    {}
+    {}
+    {}
+
+% ----- Document ----
+\begin{document}
+    \chapter{Dummy Chapter}
+        This is a dummy text.
+        \section{Dummy Section}
+            This is a dummy text.
+            \subsection{Dummy Subsection}
+                This is a dummy text.
+                \subsubsection{Dummy Subsubsection}
+                    This is a dummy text.
+    
+    \chapter{Yet Another Dummy Chapter}
+        This is a dummy text.
+        \section{Yet Another Dummy Section}
+            This is a dummy text.
+            \subsection{Yet Another Dummy Subsection}
+                This is a dummy text.
+                \subsubsection{Yet Another Dummy Subsubsection}
+                    This is a dummy text.
+                
+\end{document}

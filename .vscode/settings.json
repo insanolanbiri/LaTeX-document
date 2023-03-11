@@ -1,0 +1,29 @@
+{
+    "files.autoSave": "afterDelay",
+    "files.exclude": {
+		// Beautiful LaTeX file extensions
+		// Because it would be too hard to just make a standard
+		// for all LaTeX packages
+		"**/*.aux": true,
+		"**/*.bbl": true,
+		"**/*.blg": true,
+		"**/*.fdb_latexmk": true,
+		"**/*.fls": true,
+		"**/*.out": true,
+		"**/*.synctex.gz": true,
+		"**/*.bcf": true,
+		"**/*.toc": true,
+		"**/*.run.xml": true,
+		"**/*.synctex(busy)": true, 
+		// mmmm, "(busy)" as a file extension
+		// what a brilliant idea
+		"**/*.synctex.gz(busy)": true,
+		"**/*.acn": true,
+		"**/*.acr": true,
+		"**/*.alg": true,
+		"**/*.glg": true,
+		"**/*.glo": true,
+		"**/*.gls": true,
+		"**/*.ist": true
+	}
+}
